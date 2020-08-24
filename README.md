@@ -8,4 +8,4 @@ Training project with accordeon
 * jQuery accordion 
 
 ### You can run this project locally just do:
-1. load files from https://github.com/AleksandrZanko/accordeon or open https://aleksandrzanko.github.io/accordeon/
+1. load files from https://github.com/AleksandrZanko/accordion or open https://aleksandrzanko.github.io/accordion/
