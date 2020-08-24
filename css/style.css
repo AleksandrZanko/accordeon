@@ -1,0 +1,267 @@
+.page-questions {
+	padding-left: 241px;
+	padding-top: 150px;
+	padding-bottom: 215px;
+
+	background-color: #ffffff;
+	background-image: url('../img/broccoli.svg');
+	background-repeat: no-repeat;
+	background-position: 821px 338px;
+}
+
+.page-questions__title {
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 0;
+
+	width: 1171px;
+
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 130px;
+	line-height: 153px;
+	color: #F6F6F6;
+
+	text-transform: uppercase;
+	text-align: center;	
+}
+
+.questions__title {
+	margin: 0;
+	margin-bottom: 63px;
+	padding: 0;
+
+	width: 1170px;
+
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+	color: #000000;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.questions__list {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.questions__item {
+	margin-bottom: 45px;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+	width: 670px;
+}
+
+.questions__button {
+	position: relative;
+
+	margin: 0;
+	padding: 0;
+
+	width: 70px;
+	height: 70px;
+
+	background-color: #ffffff;
+	border: 1px solid #E41579;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+.questions__button::before {
+	position: absolute;
+	content: '';
+
+	top: 48%;
+	left: 20px;
+
+	width: 28px;
+	height: 3px;
+
+	background-color: #E41579;
+}
+
+.questions__button::after {
+	position: absolute;
+	content: '';
+
+	top: 20px;
+	left: 48%;
+
+	width: 3px;
+	height: 28px;
+
+	background-color: #E41579;
+}
+
+.questions__button:hover {
+	cursor: default; 
+}
+
+.questions__button:hover::after { 
+	box-shadow: 0px 0px 24px 5px rgba(0,0,0,0.37);
+}
+
+.questions__button:focus {
+	outline: none;
+}
+
+
+.questions__button--active {
+	background-color: #E41579;
+}
+
+.questions__button--active::before,
+.questions__button--active::after {
+	background-color: #ffffff;
+	transform: rotate(45deg);
+	transition: 0.3s;
+
+}
+
+.questions__item-title {
+	margin: 0;
+	margin-left: 30px;
+	padding: 0;
+
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+}
+
+.questions__item-text {
+	display: none;
+}
+
+.questions__item-text b {
+	color: #E41579;
+}
+
+.questions__item-text--active {
+	display: block;
+	margin: 0;
+	margin-left: 100px;
+	padding: 0;
+
+	width: 570px;
+
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+}
+
+@media (max-width: 1600px) {
+	.page-questions {
+		padding-left: 50px;
+		margin: 0 auto;
+		background-position: 47vw 338px;
+	}
+}
+
+@media (max-width: 1230px) {
+	.page-questions {
+		background-image: url('../img/broccoli-tablet.svg');
+		background-position: 67vw 5px;
+	}
+
+	.page-questions__title {
+		width: 100%;
+		font-size: 110px;
+	}
+
+	.questions__title {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.page-questions {
+		padding-top: 170px;
+		padding-left: 10px;
+
+		background-position: 62vw 5px;
+	}
+
+	.page-questions__title {
+		font-size: 80px;
+		line-height: 94px;
+	}
+
+	.questions__title {
+		margin-bottom: 27px;
+
+		font-size: 20px;
+		line-height: 23px;
+	}
+
+	.questions__item {
+		width: 100%;
+	}
+
+	.questions__item-text--active {
+		margin-right: 88px;
+		width: auto;
+	}
+}
+
+@media (max-width: 670px) {
+	.page-questions {
+		background-position: 55vw 5px;
+	}
+
+	.page-questions__title {
+		font-size: 65px;
+		line-height: 87px;
+	}
+
+	.questions__title {
+		font-size: 18px;
+	}
+    
+    .questions__item-title {
+		width: 75%;
+	}
+}
+
+@media (max-width: 555px) {
+	.page-questions {
+		background-image: url('../img/broccoli-mobile.svg');
+		background-position: 48vw 5px;
+	}
+
+	.page-questions__title {
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	.questions__title {
+		margin-bottom: 30px;
+		
+		font-size: 20px;
+		line-height: 23px;
+	}
+
+	.questions__item-title {
+		margin-left: 20px;
+		width: 65%;
+	}
+
+	.questions__item-text--active {
+		margin-left: 90px;
+		margin-right: 9px;
+	}
+}
