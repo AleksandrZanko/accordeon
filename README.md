@@ -9,3 +9,4 @@ Training page with self-made accordion
 
 ### You can run this project locally just do:
 1. load files from https://github.com/AleksandrZanko/accordion or open https://aleksandrzanko.github.io/accordion/
+ 
