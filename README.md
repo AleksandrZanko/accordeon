@@ -1,5 +1,5 @@
 # accordion
-Training page with self-made accordeon
+Training page with self-made accordion
 ## Training project Lian
 
 ### In this project I mastered:
